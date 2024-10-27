@@ -181,16 +181,16 @@ void showHelp() {
 	printf("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\n");
 	printf("/*/*/*/*/*/*/*GameCoin/*/*/*/*/*/*/*\n");
 	printf("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\n\n\n");
-	printf("Hra sa ovlada pomocou A a S. \nPrincip hry spociva v zbierani minci.");
+	printf("Gameplay controls: A and S. \nYou have to collect coins as much as possible.");
 	instuff = true;
 }
 
 void showStats() {
 	clearScreen();
 	printf("------------------------------------\n");
-	printf("-------------Statistika-------------\n");
+	printf("-------------Statistics-------------\n");
 	printf("------------------------------------\n\n\n");
-	printf("Pocet nazbieranych minci: %d", getData());
+	printf("Number of collected coins: %d", getData());
 	instuff = true;
 }
 
